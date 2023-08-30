@@ -19,7 +19,8 @@ interface Child {
 class ChildOfChild implements Parent, Child {
 
 	 public void m1()
-	{
+	{//	super
+	//	 this.m2();
 		System.out.println("m2 method from child class ");
 	}
 
